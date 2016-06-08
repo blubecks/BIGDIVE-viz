@@ -1,0 +1,26 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <svg width="300" height="500">
+        <!-- Let me show graphic shape and not only text -->
+        <!-- with x and y i can set the distance of the top left shape corner to the top left svg corner -->
+        <rect x="30" width="100" height="200" fill="orange"></rect>
+        
+        <circle r="30" cx="130" cy="200"></circle>
+        
+        <line stroke="black" x1="1" y1="1" x2="130" y2="200"></line>
+        <text x="50" y="100"> Some Text</text>
+        <g transform="translate(200,200) rotate(45)">
+            <!-- It's a group element, let me apply some functions to a group of elements -->
+            <rect width="50" height="50"></rect>
+            <circle fill="red" r=10></circle>
+        
+        </g>
+    </svg>
+</body>
+
+</html>
